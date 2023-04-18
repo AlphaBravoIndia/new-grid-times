@@ -57,6 +57,7 @@ const Wrapper = styled.div`
 
 const MainStorySection = styled.section`
   grid-area: main-story;
+  
 `;
 
 const SecondaryStorySection = styled.section`

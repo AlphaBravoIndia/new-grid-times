@@ -20,7 +20,7 @@ const Wrapper = styled.article`
     'image abstract';
   gap: 4px 16px;
   grid-template-columns: 120px 1fr;
-  color: var(--color-gray-900);
+  color: var(--color-gray-900);  
 `;
 
 const Image = styled.img`

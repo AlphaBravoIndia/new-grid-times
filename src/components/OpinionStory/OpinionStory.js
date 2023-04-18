@@ -18,6 +18,10 @@ const OpinionStory = ({ id, title, author, avatar }) => {
 
 const Wrapper = styled.article`
   color: var(--color-gray-900);
+
+  @media ${QUERIES.tabletOnly} {
+    border-bottom: none;
+  }
 `;
 
 const Avatar = styled.img`
